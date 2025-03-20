@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 28
-
+    namespace "com.shushper.cloudpayments"
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
